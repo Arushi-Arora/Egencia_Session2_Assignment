@@ -5,7 +5,7 @@ The following points are to be followed to create an immutable class in java :-
 3. Don't provide setter methods for variables
 Example of a custom immutable java class:
 
-publicÊfinalÊclassÊContacts {
+public final class Contacts {
 
      private final String fname;	//the data member is final
         private final String number;	//the data member is final
