@@ -1,1 +1,32 @@
-CREATE AN IMMUTABLE CLASS IN JAVA:The following points are to be followed to create an immutable class in java :-1. Declare the class as final so it can’t be extended.2. Make all fields private so that direct access is not allowed.3. Don’t provide setter methods for variablesExample of a custom immutable java class:public final class Contacts {     private final String fname;	//the data member is final          private final String number;	//the data member is final          private Contacts (String name, String mobile) {	//constructor          	this.name = name;          	this.mobile = mobile;    	}		//No setters present in the given class      	public String getFirstName(){	//getter        		return this.fname;   	 }     	public String getNumber(){	//getter        		return this.mobile;    	}}
+CREATE AN IMMUTABLE CLASS IN JAVA:
+The following points are to be followed to create an immutable class in java :-
+1. Declare the class as final so it can√ït be extended.
+2. Make all fields private so that direct access is not allowed.
+3. Don't provide setter methods for variables
+Example of a custom immutable java class:
+
+public√äfinal√äclass√äContacts {
+
+     private final String fname;	//the data member is final
+        private final String number;	//the data member is final
+
+        private Contacts (String name, String mobile) {	//constructor
+          	this.name=name;
+          	this.mobile=mobile;
+      	}
+	
+	//No setters present in the given class
+
+      	public String getFirstName(){	//getter
+        		return this.fname;
+        }
+
+      	public String getNumber(){	//getter
+        		return this.mobile;
+      	}
+}
+
+
+
+
+
